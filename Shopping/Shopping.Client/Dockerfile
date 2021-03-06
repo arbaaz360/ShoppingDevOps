@@ -6,9 +6,14 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["Shopping.Client/Shopping.Client.csproj", "Shopping.Client/"]
+#COPY ["Shopping.Client/Shopping.Client.csproj", "Shopping.Client/"]
+COPY ./Shopping/Shopping.Client/Shopping.Client.csproj Shopping.Client/
+
 RUN dotnet restore "Shopping.Client/Shopping.Client.csproj"
-COPY . .
+COPY ./Shopping/Shopping.Client/ ./Shopping.Client/
+
+
+#COPY . .
 WORKDIR "/src/Shopping.Client"
 RUN dotnet build "Shopping.Client.csproj" -c Release -o /app/build
 
