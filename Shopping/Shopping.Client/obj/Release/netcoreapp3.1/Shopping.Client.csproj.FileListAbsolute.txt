@@ -47,3 +47,4 @@ C:\Users\arbaaz\source\repos\MyShoppingDevOps\Shopping\Shopping.Client\obj\Relea
 C:\Users\arbaaz\source\repos\MyShoppingDevOps\Shopping\Shopping.Client\obj\Release\netcoreapp3.1\Shopping.Client.dll
 C:\Users\arbaaz\source\repos\MyShoppingDevOps\Shopping\Shopping.Client\obj\Release\netcoreapp3.1\Shopping.Client.pdb
 C:\Users\arbaaz\source\repos\MyShoppingDevOps\Shopping\Shopping.Client\obj\Release\netcoreapp3.1\Shopping.Client.genruntimeconfig.cache
+C:\Users\arbaaz\source\repos\MyShoppingDevOps\Shopping\Shopping.Client\obj\Release\netcoreapp3.1\Shopping.Client.csprojAssemblyReference.cache
