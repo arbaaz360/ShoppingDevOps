@@ -6,16 +6,16 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["Test5/Test5.csproj", "Test5/"]
-RUN dotnet restore "Test5/Test5.csproj"
+COPY ["DevOpsTest/DevOpsTest.csproj", "DevOpsTest/"]
+RUN dotnet restore "DevOpsTest/DevOpsTest.csproj"
 COPY . .
-WORKDIR "/src/Test5"
-RUN dotnet build "Test5.csproj" -c Release -o /app/build
+WORKDIR "/src/DevOpsTest"
+RUN dotnet build "DevOpsTest.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Test5.csproj" -c Release -o /app/publish
+RUN dotnet publish "DevOpsTest.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Test5.dll"]
+ENTRYPOINT ["dotnet", "DevOpsTest.dll"]
