@@ -103,11 +103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arbaaz\\source\\repos\\Test5\\Test5\\Test5.csproj",
+      "projectUniqueName": "C:\\Users\\arbaaz\\source\\repos\\ShoppingDevOps\\Shopping\\Test5\\Test5.csproj",
       "projectName": "Test5",
-      "projectPath": "C:\\Users\\arbaaz\\source\\repos\\Test5\\Test5\\Test5.csproj",
+      "projectPath": "C:\\Users\\arbaaz\\source\\repos\\ShoppingDevOps\\Shopping\\Test5\\Test5.csproj",
       "packagesPath": "C:\\Users\\arbaaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arbaaz\\source\\repos\\Test5\\Test5\\obj\\",
+      "outputPath": "C:\\Users\\arbaaz\\source\\repos\\ShoppingDevOps\\Shopping\\Test5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arbaaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
